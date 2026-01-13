@@ -23,7 +23,7 @@ let package = Package(
         .package(
             url: "https://github.com/cauly/CaulySPM.git",
             exact: "3.1.22"
-        ),
+        )
     ],
     targets: [
         .binaryTarget(
@@ -34,7 +34,8 @@ let package = Package(
         .target(
             name: "AdWhaleSDKResources",
             dependencies: [
-                .target(name: "AdWhaleSDK"),
+                // .target(name: "AdWhaleSDK"),
+                "AdWhaleSDK",
 
                 // AdMob
                 .product(
@@ -46,7 +47,8 @@ let package = Package(
                 .product(
                     name: "CaulySDK",
                     package: "CaulySPM"
-                ),
+                )
+            ]
         )
     ]
 )
