@@ -42,7 +42,7 @@
 		</data>
 		<key>Modules/AdWhaleSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		xU//sKAHTrShguEjwg8TLnAy+ug=
+		pfgZT56ZEO8SN5a1s1YL/zVlLLo=
 		</data>
 		<key>Modules/AdWhaleSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -62,7 +62,7 @@
 		</data>
 		<key>Modules/AdWhaleSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		CzPoEwqEYuVzpTe9DER3rLVKLpo=
+		9D9o/xjjFLqsYlQe1ZONIQmk7pM=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -143,7 +143,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			a64tSDmVUu3BVI/7d5l+t9VkU36/B7OOONAqP9hsxbk=
+			tGHkM4ZeM0hlwkyIgDYYCCxV1Yu5iID68NqUl4TmkJI=
 			</data>
 		</dict>
 		<key>Modules/AdWhaleSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
@@ -178,7 +178,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			WhZC1KY1FB9Lf3SD8iAg2oOvGilixHKvlpy9BH2qjLQ=
+			Ed/J7aRndKQkWDLaDP02qk5HFTG6k/YgOjWwpqDIw3w=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

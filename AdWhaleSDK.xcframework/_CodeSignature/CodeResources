@@ -6,7 +6,7 @@
 	<dict>
 		<key>ios-arm64/AdWhaleSDK.framework/AdWhaleSDK</key>
 		<data>
-		I1bzH23Z3i+gP4xghjLteMK2Yzg=
+		p3ENre1ic2dl/os4q6HpsEdinPo=
 		</data>
 		<key>ios-arm64/AdWhaleSDK.framework/GoogleMobileAdsResources.bundle/Info.plist</key>
 		<data>
@@ -62,11 +62,11 @@
 		</data>
 		<key>ios-arm64/AdWhaleSDK.framework/_CodeSignature/CodeResources</key>
 		<data>
-		tXx/3AuKuRcjdUaR4n5jQnVkRQw=
+		G+QVdJ0fCzEee/mVkb+IuvgoC9c=
 		</data>
 		<key>ios-arm64_x86_64-simulator/AdWhaleSDK.framework/AdWhaleSDK</key>
 		<data>
-		3rCH11MgWmghpXdGNmxQ2EWLa1I=
+		N4ucX9rO251CvFQLQ2JGwzlryDo=
 		</data>
 		<key>ios-arm64_x86_64-simulator/AdWhaleSDK.framework/GoogleMobileAdsResources.bundle/Info.plist</key>
 		<data>
@@ -138,7 +138,7 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/AdWhaleSDK.framework/_CodeSignature/CodeResources</key>
 		<data>
-		Z0eGvY9gpOvy2Qq64O9j6l6w/x4=
+		aLjNcjFNzh8BcB6HOZkTwz+KKP4=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -147,11 +147,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			I1bzH23Z3i+gP4xghjLteMK2Yzg=
+			p3ENre1ic2dl/os4q6HpsEdinPo=
 			</data>
 			<key>hash2</key>
 			<data>
-			hJuDgp62zsXXj2aPb4YG21pGfTQP8csJx89yV3DilQ4=
+			mMo28tXw0pt4s3oyjJDnKLwRy7PCVmmxz9ZtO9iVr24=
 			</data>
 		</dict>
 		<key>ios-arm64/AdWhaleSDK.framework/GoogleMobileAdsResources.bundle/Info.plist</key>
@@ -301,22 +301,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			tXx/3AuKuRcjdUaR4n5jQnVkRQw=
+			G+QVdJ0fCzEee/mVkb+IuvgoC9c=
 			</data>
 			<key>hash2</key>
 			<data>
-			+34ed5lLaLOEqnk413WdEJewQbSmboS4vZnfLCauUkU=
+			lX8SVKcfuENHm5sNXkW6teekse3S8xG1QDGSszN+r0E=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/AdWhaleSDK.framework/AdWhaleSDK</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			3rCH11MgWmghpXdGNmxQ2EWLa1I=
+			N4ucX9rO251CvFQLQ2JGwzlryDo=
 			</data>
 			<key>hash2</key>
 			<data>
-			+HL6JYcT69R6rrZfQJbFP2adwMTdvxmB6N5/dov6LmM=
+			YKkMjPdowpmhgDX8AZNU1Aa26VMcMBOEhWPQ7OSn46Q=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/AdWhaleSDK.framework/GoogleMobileAdsResources.bundle/Info.plist</key>
@@ -510,11 +510,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Z0eGvY9gpOvy2Qq64O9j6l6w/x4=
+			aLjNcjFNzh8BcB6HOZkTwz+KKP4=
 			</data>
 			<key>hash2</key>
 			<data>
-			XzGZ7343RRJMXDzuCdKEfYN/heWztIi1XLjQneUIg90=
+			YUca9vqz2cbTz/VUIsRs3sEvevaslQhIzVbrhj/8IG4=
 			</data>
 		</dict>
 	</dict>
