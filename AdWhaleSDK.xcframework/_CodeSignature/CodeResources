@@ -6,11 +6,11 @@
 	<dict>
 		<key>ios-arm64/AdWhaleSDK.framework/AdWhaleSDK</key>
 		<data>
-		p3ENre1ic2dl/os4q6HpsEdinPo=
+		Ci+yMeKe/GBhvz+sJo+nwMg7HCE=
 		</data>
 		<key>ios-arm64/AdWhaleSDK.framework/GoogleMobileAdsResources.bundle/Info.plist</key>
 		<data>
-		NvMESVcPzfLKEu0lqOtNABi5bhc=
+		gYieMXso6XtaBp5uFefk9SSOPpI=
 		</data>
 		<key>ios-arm64/AdWhaleSDK.framework/GoogleMobileAdsResources.bundle/PrivacyInfo.xcprivacy</key>
 		<data>
@@ -62,15 +62,15 @@
 		</data>
 		<key>ios-arm64/AdWhaleSDK.framework/_CodeSignature/CodeResources</key>
 		<data>
-		G+QVdJ0fCzEee/mVkb+IuvgoC9c=
+		+jbdOCjrac0TG+ufiwBdPS1Gpr4=
 		</data>
 		<key>ios-arm64_x86_64-simulator/AdWhaleSDK.framework/AdWhaleSDK</key>
 		<data>
-		N4ucX9rO251CvFQLQ2JGwzlryDo=
+		LfLZupPcmHUbfbufPSV5kZOKm6U=
 		</data>
 		<key>ios-arm64_x86_64-simulator/AdWhaleSDK.framework/GoogleMobileAdsResources.bundle/Info.plist</key>
 		<data>
-		Xkbvp5nqaxOrjm6coDF1XIddIxk=
+		GsG0TD+W8GHQOE9xEp+HChGOZsg=
 		</data>
 		<key>ios-arm64_x86_64-simulator/AdWhaleSDK.framework/GoogleMobileAdsResources.bundle/PrivacyInfo.xcprivacy</key>
 		<data>
@@ -138,7 +138,7 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/AdWhaleSDK.framework/_CodeSignature/CodeResources</key>
 		<data>
-		aLjNcjFNzh8BcB6HOZkTwz+KKP4=
+		ZYbHu5FnoZav2r/0wbekPMGS3HY=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -147,22 +147,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			p3ENre1ic2dl/os4q6HpsEdinPo=
+			Ci+yMeKe/GBhvz+sJo+nwMg7HCE=
 			</data>
 			<key>hash2</key>
 			<data>
-			mMo28tXw0pt4s3oyjJDnKLwRy7PCVmmxz9ZtO9iVr24=
+			eFTlYITUEIHmR3SDe7tpXd8IZ6LHEG0zYgud2xH0MGA=
 			</data>
 		</dict>
 		<key>ios-arm64/AdWhaleSDK.framework/GoogleMobileAdsResources.bundle/Info.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			NvMESVcPzfLKEu0lqOtNABi5bhc=
+			gYieMXso6XtaBp5uFefk9SSOPpI=
 			</data>
 			<key>hash2</key>
 			<data>
-			lUcnwR/hRiAd2FdPZLgKZYf6D+ah1aETYiQu7Bs5/W4=
+			HOpG6E2WY37msGqwxrUlluNSoX8e+Hc5zbkqYhhhTOc=
 			</data>
 		</dict>
 		<key>ios-arm64/AdWhaleSDK.framework/GoogleMobileAdsResources.bundle/PrivacyInfo.xcprivacy</key>
@@ -301,33 +301,33 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			G+QVdJ0fCzEee/mVkb+IuvgoC9c=
+			+jbdOCjrac0TG+ufiwBdPS1Gpr4=
 			</data>
 			<key>hash2</key>
 			<data>
-			lX8SVKcfuENHm5sNXkW6teekse3S8xG1QDGSszN+r0E=
+			guvoskhtZt3ECe1PEgiCfLgP+z2gSTXB53VwOAvbeSk=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/AdWhaleSDK.framework/AdWhaleSDK</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			N4ucX9rO251CvFQLQ2JGwzlryDo=
+			LfLZupPcmHUbfbufPSV5kZOKm6U=
 			</data>
 			<key>hash2</key>
 			<data>
-			YKkMjPdowpmhgDX8AZNU1Aa26VMcMBOEhWPQ7OSn46Q=
+			yVAyZRV/4QnJ93iMvX13NTyjNKyWYsB54TU5Ujx2DGY=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/AdWhaleSDK.framework/GoogleMobileAdsResources.bundle/Info.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Xkbvp5nqaxOrjm6coDF1XIddIxk=
+			GsG0TD+W8GHQOE9xEp+HChGOZsg=
 			</data>
 			<key>hash2</key>
 			<data>
-			oT1QHh657ItiS6pWcUGvnkuBlf6drHQUQv2l40RLfBQ=
+			lXNgDLZ6F4PNr391p1/Bi2fEIpRSdYfueB7Qvew1ua0=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/AdWhaleSDK.framework/GoogleMobileAdsResources.bundle/PrivacyInfo.xcprivacy</key>
@@ -510,11 +510,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			aLjNcjFNzh8BcB6HOZkTwz+KKP4=
+			ZYbHu5FnoZav2r/0wbekPMGS3HY=
 			</data>
 			<key>hash2</key>
 			<data>
-			YUca9vqz2cbTz/VUIsRs3sEvevaslQhIzVbrhj/8IG4=
+			vE15WDKWB6T9UPjWp3P3T9Vdgvvs9dUqItKiXmyhuY8=
 			</data>
 		</dict>
 	</dict>
