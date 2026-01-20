@@ -6,23 +6,7 @@
 	<dict>
 		<key>ios-arm64/AdWhaleSDK.framework/AdWhaleSDK</key>
 		<data>
-		g/JzlzYYM4owIcdsCvWvCtZm3Y8=
-		</data>
-		<key>ios-arm64/AdWhaleSDK.framework/AdsGlobalSDK.bundle/Info.plist</key>
-		<data>
-		tiCiDJvrsYTtUv4Pr4dE1hnCxqc=
-		</data>
-		<key>ios-arm64/AdWhaleSDK.framework/AdsGlobalSDK.bundle/PrivacyInfo.xcprivacy</key>
-		<data>
-		/9EtcEGxvliJS6WqSyAMGN1TBwE=
-		</data>
-		<key>ios-arm64/AdWhaleSDK.framework/Fyber_Marketplace_SDK.bundle/Info.plist</key>
-		<data>
-		4rR7PbaftWA2bRPVVQ33uLDziKE=
-		</data>
-		<key>ios-arm64/AdWhaleSDK.framework/Fyber_Marketplace_SDK.bundle/PrivacyInfo.xcprivacy</key>
-		<data>
-		wQj/VbiBnny3b63k0acjA2qnfNs=
+		I1bzH23Z3i+gP4xghjLteMK2Yzg=
 		</data>
 		<key>ios-arm64/AdWhaleSDK.framework/GoogleMobileAdsResources.bundle/Info.plist</key>
 		<data>
@@ -44,30 +28,6 @@
 		<data>
 		ARDUEopEpI6GHORF4IsdhD4dydY=
 		</data>
-		<key>ios-arm64/AdWhaleSDK.framework/IronSourceAdQualityPrivacyInfo.bundle/Info.plist</key>
-		<data>
-		/hh+ee1/DhXuY2lrVO2XNWoV9/Q=
-		</data>
-		<key>ios-arm64/AdWhaleSDK.framework/IronSourceAdQualityPrivacyInfo.bundle/PrivacyInfo.xcprivacy</key>
-		<data>
-		l2ZduCvSJbNtPnHg+4cAbLgDbyQ=
-		</data>
-		<key>ios-arm64/AdWhaleSDK.framework/IronSourcePrivacyInfo.bundle/Info.plist</key>
-		<data>
-		azw+YqOnBgXd15yQTIEavgKz2Rg=
-		</data>
-		<key>ios-arm64/AdWhaleSDK.framework/IronSourcePrivacyInfo.bundle/PrivacyInfo.xcprivacy</key>
-		<data>
-		BLNjR6VVI/K82v3iQCE5o0YXgGI=
-		</data>
-		<key>ios-arm64/AdWhaleSDK.framework/MTGSDK.bundle/Info.plist</key>
-		<data>
-		dw+J0XytO3MUj1l++42i8jXfOLo=
-		</data>
-		<key>ios-arm64/AdWhaleSDK.framework/MTGSDK.bundle/PrivacyInfo.xcprivacy</key>
-		<data>
-		7pb/tiRb/KGE5KXo5P2+XBbJDLs=
-		</data>
 		<key>ios-arm64/AdWhaleSDK.framework/Modules/AdWhaleSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
 		m0EGyqDnqbpNzXpngfQ8az2wdDg=
@@ -88,101 +48,9 @@
 		<data>
 		wEawxPmC1lHtBRLEgrHbweWq0vM=
 		</data>
-		<key>ios-arm64/AdWhaleSDK.framework/PAGAdSDK.bundle/400001562.json</key>
-		<data>
-		OWy+nAUoSGf18os0/Ypy+FPsaH0=
-		</data>
-		<key>ios-arm64/AdWhaleSDK.framework/PAGAdSDK.bundle/400001924.json</key>
-		<data>
-		A1Vbzf4WumplRmXGrkvMh453biE=
-		</data>
-		<key>ios-arm64/AdWhaleSDK.framework/PAGAdSDK.bundle/400001965.json</key>
-		<data>
-		0Pe66i+Ln7O2oAGT2tLg2rEFPHU=
-		</data>
-		<key>ios-arm64/AdWhaleSDK.framework/PAGAdSDK.bundle/400002028.json</key>
-		<data>
-		tTGMs0QKsFzKX/8aF5dE9P0mkys=
-		</data>
-		<key>ios-arm64/AdWhaleSDK.framework/PAGAdSDK.bundle/400002029.json</key>
-		<data>
-		uijoBTMtKWICiLnGDujDR0FLdK0=
-		</data>
-		<key>ios-arm64/AdWhaleSDK.framework/PAGAdSDK.bundle/400007896.json</key>
-		<data>
-		fAPLnYiX95ptTcM1oOSf+61M/fo=
-		</data>
-		<key>ios-arm64/AdWhaleSDK.framework/PAGAdSDK.bundle/400007913.json</key>
-		<data>
-		5q86CJE9HpjQQ9Ukbb9WPcxUxi0=
-		</data>
-		<key>ios-arm64/AdWhaleSDK.framework/PAGAdSDK.bundle/400007914.json</key>
-		<data>
-		C9na1jUPC9lfttfQ+c3/zIvM5lg=
-		</data>
-		<key>ios-arm64/AdWhaleSDK.framework/PAGAdSDK.bundle/400007918.json</key>
-		<data>
-		ps6UK8x6zr8lwb5lndr89EZcL5M=
-		</data>
-		<key>ios-arm64/AdWhaleSDK.framework/PAGAdSDK.bundle/400007923.json</key>
-		<data>
-		wszSaxcAh8+sfbw5X7r35sGzsrI=
-		</data>
-		<key>ios-arm64/AdWhaleSDK.framework/PAGAdSDK.bundle/400007941.json</key>
-		<data>
-		QNNyKQTwHu2w7V229uebCNdtzPs=
-		</data>
-		<key>ios-arm64/AdWhaleSDK.framework/PAGAdSDK.bundle/400007999.json</key>
-		<data>
-		+uUTZq6R6wiVpauUJPZsrcwZo9E=
-		</data>
-		<key>ios-arm64/AdWhaleSDK.framework/PAGAdSDK.bundle/Assets.car</key>
-		<data>
-		7p9aS9xmPIWM7ssl5k8EXmPauIU=
-		</data>
-		<key>ios-arm64/AdWhaleSDK.framework/PAGAdSDK.bundle/Info.plist</key>
-		<data>
-		12LcT2l36MwDSS9CMeqJ8XWCIoo=
-		</data>
-		<key>ios-arm64/AdWhaleSDK.framework/PAGAdSDK.bundle/PrivacyInfo.xcprivacy</key>
-		<data>
-		/9EtcEGxvliJS6WqSyAMGN1TBwE=
-		</data>
-		<key>ios-arm64/AdWhaleSDK.framework/PAGAdSDK.bundle/omsdk-v1.js</key>
-		<data>
-		WX9bWVBNl+h/NW1bQTdx+psJVyU=
-		</data>
-		<key>ios-arm64/AdWhaleSDK.framework/PAGAdSDK.bundle/version.txt</key>
-		<data>
-		UPhuPnV3HwnM86Hjl1Hd4C39m18=
-		</data>
 		<key>ios-arm64/AdWhaleSDK.framework/PrivacyInfo.xcprivacy</key>
 		<data>
 		mKv3fPeAWkwCtKGHIJx0lSzCIPY=
-		</data>
-		<key>ios-arm64/AdWhaleSDK.framework/TikTokBusinessSDK.bundle/Info.plist</key>
-		<data>
-		OFJVKmNLNbCtf6D5lIg6PFNRPnI=
-		</data>
-		<key>ios-arm64/AdWhaleSDK.framework/TikTokBusinessSDK.bundle/PrivacyInfo.xcprivacy</key>
-		<data>
-		mTK8OTaETgRAx3w+SAynt3Z+ncw=
-		</data>
-		<key>ios-arm64/AdWhaleSDK.framework/UnityAdsResources.bundle/Info.plist</key>
-		<data>
-		cAaPks0foUuXeQhua4otqYN8ysc=
-		</data>
-		<key>ios-arm64/AdWhaleSDK.framework/UnityAdsResources.bundle/PrivacyInfo.xcprivacy</key>
-		<data>
-		Vmr7Tv9rcKyDvK3D48LDE7Da57Y=
-		</data>
-		<key>ios-arm64/AdWhaleSDK.framework/UnityAdsResources.bundle/omid-session-client-v1.js</key>
-		<data>
-		7sp3Ar5eWE8CR1N+eYJLzLQ6YcQ=
-		</data>
-		<key>ios-arm64/AdWhaleSDK.framework/UnityAdsResources.bundle/omsdk-v1.js</key>
-		<data>
-		6+hfCdXnixKm+657WUiXeprAN1c=
 		</data>
 		<key>ios-arm64/AdWhaleSDK.framework/UserMessagingPlatformResources.bundle/Info.plist</key>
 		<data>
@@ -192,37 +60,13 @@
 		<data>
 		k9OFlDPBRWfteJ+bfG12WAoBuls=
 		</data>
-		<key>ios-arm64/AdWhaleSDK.framework/VungleAds.bundle/Info.plist</key>
-		<data>
-		VFFonCgI+OCCws2rURqTxcbAOOE=
-		</data>
-		<key>ios-arm64/AdWhaleSDK.framework/VungleAds.bundle/PrivacyInfo.xcprivacy</key>
-		<data>
-		COhxM0H7+Gp/ed2fy4Li+IZWHRQ=
-		</data>
 		<key>ios-arm64/AdWhaleSDK.framework/_CodeSignature/CodeResources</key>
 		<data>
-		TbCFzL5qiys37ovH8by02v1N0jY=
+		tXx/3AuKuRcjdUaR4n5jQnVkRQw=
 		</data>
 		<key>ios-arm64_x86_64-simulator/AdWhaleSDK.framework/AdWhaleSDK</key>
 		<data>
-		cEtlVrpUGQMDHh0rzwNtSVJlwo0=
-		</data>
-		<key>ios-arm64_x86_64-simulator/AdWhaleSDK.framework/AdsGlobalSDK.bundle/Info.plist</key>
-		<data>
-		9NgiV1cqMmb/bHhs0V7OJL1wlQc=
-		</data>
-		<key>ios-arm64_x86_64-simulator/AdWhaleSDK.framework/AdsGlobalSDK.bundle/PrivacyInfo.xcprivacy</key>
-		<data>
-		/9EtcEGxvliJS6WqSyAMGN1TBwE=
-		</data>
-		<key>ios-arm64_x86_64-simulator/AdWhaleSDK.framework/Fyber_Marketplace_SDK.bundle/Info.plist</key>
-		<data>
-		ce2DOiBo0presG0RReIwyw0BkGA=
-		</data>
-		<key>ios-arm64_x86_64-simulator/AdWhaleSDK.framework/Fyber_Marketplace_SDK.bundle/PrivacyInfo.xcprivacy</key>
-		<data>
-		wQj/VbiBnny3b63k0acjA2qnfNs=
+		3rCH11MgWmghpXdGNmxQ2EWLa1I=
 		</data>
 		<key>ios-arm64_x86_64-simulator/AdWhaleSDK.framework/GoogleMobileAdsResources.bundle/Info.plist</key>
 		<data>
@@ -243,30 +87,6 @@
 		<key>ios-arm64_x86_64-simulator/AdWhaleSDK.framework/Info.plist</key>
 		<data>
 		XY8M3yNHEb1n9ACcbFdsqhQZp4o=
-		</data>
-		<key>ios-arm64_x86_64-simulator/AdWhaleSDK.framework/IronSourceAdQualityPrivacyInfo.bundle/Info.plist</key>
-		<data>
-		pMEotOJl6vucFojo0AjNDQHHGOY=
-		</data>
-		<key>ios-arm64_x86_64-simulator/AdWhaleSDK.framework/IronSourceAdQualityPrivacyInfo.bundle/PrivacyInfo.xcprivacy</key>
-		<data>
-		l2ZduCvSJbNtPnHg+4cAbLgDbyQ=
-		</data>
-		<key>ios-arm64_x86_64-simulator/AdWhaleSDK.framework/IronSourcePrivacyInfo.bundle/Info.plist</key>
-		<data>
-		lVJTPT+0Xqym7gswkElGU2IHZkE=
-		</data>
-		<key>ios-arm64_x86_64-simulator/AdWhaleSDK.framework/IronSourcePrivacyInfo.bundle/PrivacyInfo.xcprivacy</key>
-		<data>
-		BLNjR6VVI/K82v3iQCE5o0YXgGI=
-		</data>
-		<key>ios-arm64_x86_64-simulator/AdWhaleSDK.framework/MTGSDK.bundle/Info.plist</key>
-		<data>
-		+MTDYLQBHm+aUhMMIIpeKqFEfPk=
-		</data>
-		<key>ios-arm64_x86_64-simulator/AdWhaleSDK.framework/MTGSDK.bundle/PrivacyInfo.xcprivacy</key>
-		<data>
-		7pb/tiRb/KGE5KXo5P2+XBbJDLs=
 		</data>
 		<key>ios-arm64_x86_64-simulator/AdWhaleSDK.framework/Modules/AdWhaleSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -304,101 +124,9 @@
 		<data>
 		wEawxPmC1lHtBRLEgrHbweWq0vM=
 		</data>
-		<key>ios-arm64_x86_64-simulator/AdWhaleSDK.framework/PAGAdSDK.bundle/400001562.json</key>
-		<data>
-		OWy+nAUoSGf18os0/Ypy+FPsaH0=
-		</data>
-		<key>ios-arm64_x86_64-simulator/AdWhaleSDK.framework/PAGAdSDK.bundle/400001924.json</key>
-		<data>
-		A1Vbzf4WumplRmXGrkvMh453biE=
-		</data>
-		<key>ios-arm64_x86_64-simulator/AdWhaleSDK.framework/PAGAdSDK.bundle/400001965.json</key>
-		<data>
-		0Pe66i+Ln7O2oAGT2tLg2rEFPHU=
-		</data>
-		<key>ios-arm64_x86_64-simulator/AdWhaleSDK.framework/PAGAdSDK.bundle/400002028.json</key>
-		<data>
-		tTGMs0QKsFzKX/8aF5dE9P0mkys=
-		</data>
-		<key>ios-arm64_x86_64-simulator/AdWhaleSDK.framework/PAGAdSDK.bundle/400002029.json</key>
-		<data>
-		uijoBTMtKWICiLnGDujDR0FLdK0=
-		</data>
-		<key>ios-arm64_x86_64-simulator/AdWhaleSDK.framework/PAGAdSDK.bundle/400007896.json</key>
-		<data>
-		fAPLnYiX95ptTcM1oOSf+61M/fo=
-		</data>
-		<key>ios-arm64_x86_64-simulator/AdWhaleSDK.framework/PAGAdSDK.bundle/400007913.json</key>
-		<data>
-		5q86CJE9HpjQQ9Ukbb9WPcxUxi0=
-		</data>
-		<key>ios-arm64_x86_64-simulator/AdWhaleSDK.framework/PAGAdSDK.bundle/400007914.json</key>
-		<data>
-		C9na1jUPC9lfttfQ+c3/zIvM5lg=
-		</data>
-		<key>ios-arm64_x86_64-simulator/AdWhaleSDK.framework/PAGAdSDK.bundle/400007918.json</key>
-		<data>
-		ps6UK8x6zr8lwb5lndr89EZcL5M=
-		</data>
-		<key>ios-arm64_x86_64-simulator/AdWhaleSDK.framework/PAGAdSDK.bundle/400007923.json</key>
-		<data>
-		wszSaxcAh8+sfbw5X7r35sGzsrI=
-		</data>
-		<key>ios-arm64_x86_64-simulator/AdWhaleSDK.framework/PAGAdSDK.bundle/400007941.json</key>
-		<data>
-		QNNyKQTwHu2w7V229uebCNdtzPs=
-		</data>
-		<key>ios-arm64_x86_64-simulator/AdWhaleSDK.framework/PAGAdSDK.bundle/400007999.json</key>
-		<data>
-		+uUTZq6R6wiVpauUJPZsrcwZo9E=
-		</data>
-		<key>ios-arm64_x86_64-simulator/AdWhaleSDK.framework/PAGAdSDK.bundle/Assets.car</key>
-		<data>
-		7p9aS9xmPIWM7ssl5k8EXmPauIU=
-		</data>
-		<key>ios-arm64_x86_64-simulator/AdWhaleSDK.framework/PAGAdSDK.bundle/Info.plist</key>
-		<data>
-		12LcT2l36MwDSS9CMeqJ8XWCIoo=
-		</data>
-		<key>ios-arm64_x86_64-simulator/AdWhaleSDK.framework/PAGAdSDK.bundle/PrivacyInfo.xcprivacy</key>
-		<data>
-		/9EtcEGxvliJS6WqSyAMGN1TBwE=
-		</data>
-		<key>ios-arm64_x86_64-simulator/AdWhaleSDK.framework/PAGAdSDK.bundle/omsdk-v1.js</key>
-		<data>
-		WX9bWVBNl+h/NW1bQTdx+psJVyU=
-		</data>
-		<key>ios-arm64_x86_64-simulator/AdWhaleSDK.framework/PAGAdSDK.bundle/version.txt</key>
-		<data>
-		UPhuPnV3HwnM86Hjl1Hd4C39m18=
-		</data>
 		<key>ios-arm64_x86_64-simulator/AdWhaleSDK.framework/PrivacyInfo.xcprivacy</key>
 		<data>
 		mKv3fPeAWkwCtKGHIJx0lSzCIPY=
-		</data>
-		<key>ios-arm64_x86_64-simulator/AdWhaleSDK.framework/TikTokBusinessSDK.bundle/Info.plist</key>
-		<data>
-		eefBQontJgaOA/nRQ7JipYU4lM0=
-		</data>
-		<key>ios-arm64_x86_64-simulator/AdWhaleSDK.framework/TikTokBusinessSDK.bundle/PrivacyInfo.xcprivacy</key>
-		<data>
-		mTK8OTaETgRAx3w+SAynt3Z+ncw=
-		</data>
-		<key>ios-arm64_x86_64-simulator/AdWhaleSDK.framework/UnityAdsResources.bundle/Info.plist</key>
-		<data>
-		zvQeyPFKf+9NtXff0h0HVAgO9IE=
-		</data>
-		<key>ios-arm64_x86_64-simulator/AdWhaleSDK.framework/UnityAdsResources.bundle/PrivacyInfo.xcprivacy</key>
-		<data>
-		Vmr7Tv9rcKyDvK3D48LDE7Da57Y=
-		</data>
-		<key>ios-arm64_x86_64-simulator/AdWhaleSDK.framework/UnityAdsResources.bundle/omid-session-client-v1.js</key>
-		<data>
-		7sp3Ar5eWE8CR1N+eYJLzLQ6YcQ=
-		</data>
-		<key>ios-arm64_x86_64-simulator/AdWhaleSDK.framework/UnityAdsResources.bundle/omsdk-v1.js</key>
-		<data>
-		6+hfCdXnixKm+657WUiXeprAN1c=
 		</data>
 		<key>ios-arm64_x86_64-simulator/AdWhaleSDK.framework/UserMessagingPlatformResources.bundle/Info.plist</key>
 		<data>
@@ -408,17 +136,9 @@
 		<data>
 		k9OFlDPBRWfteJ+bfG12WAoBuls=
 		</data>
-		<key>ios-arm64_x86_64-simulator/AdWhaleSDK.framework/VungleAds.bundle/Info.plist</key>
-		<data>
-		v8izlgRdR5dekIPGPpz7ui9kzho=
-		</data>
-		<key>ios-arm64_x86_64-simulator/AdWhaleSDK.framework/VungleAds.bundle/PrivacyInfo.xcprivacy</key>
-		<data>
-		COhxM0H7+Gp/ed2fy4Li+IZWHRQ=
-		</data>
 		<key>ios-arm64_x86_64-simulator/AdWhaleSDK.framework/_CodeSignature/CodeResources</key>
 		<data>
-		n3w/DlcZ04i2CThbsnO7jzYa78g=
+		Z0eGvY9gpOvy2Qq64O9j6l6w/x4=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -427,55 +147,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			g/JzlzYYM4owIcdsCvWvCtZm3Y8=
+			I1bzH23Z3i+gP4xghjLteMK2Yzg=
 			</data>
 			<key>hash2</key>
 			<data>
-			wzQA80CnEurptmwyK3ymtx9scWQ2e1lPMtb/g93jgLM=
-			</data>
-		</dict>
-		<key>ios-arm64/AdWhaleSDK.framework/AdsGlobalSDK.bundle/Info.plist</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			tiCiDJvrsYTtUv4Pr4dE1hnCxqc=
-			</data>
-			<key>hash2</key>
-			<data>
-			FrC2IbqubnursR35qT9n9UjiOWWNgR1E6s2ToZ/kRTA=
-			</data>
-		</dict>
-		<key>ios-arm64/AdWhaleSDK.framework/AdsGlobalSDK.bundle/PrivacyInfo.xcprivacy</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			/9EtcEGxvliJS6WqSyAMGN1TBwE=
-			</data>
-			<key>hash2</key>
-			<data>
-			y5cXDuafZAHCK9CZXFBYYkEI7u+LZGwDEwlq24JR8ik=
-			</data>
-		</dict>
-		<key>ios-arm64/AdWhaleSDK.framework/Fyber_Marketplace_SDK.bundle/Info.plist</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			4rR7PbaftWA2bRPVVQ33uLDziKE=
-			</data>
-			<key>hash2</key>
-			<data>
-			/Jri5wO28yuSOZOkCXpYOZ9o/gwkUI90IbmdJr0tj0c=
-			</data>
-		</dict>
-		<key>ios-arm64/AdWhaleSDK.framework/Fyber_Marketplace_SDK.bundle/PrivacyInfo.xcprivacy</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			wQj/VbiBnny3b63k0acjA2qnfNs=
-			</data>
-			<key>hash2</key>
-			<data>
-			dDIi4xb1Sm+j5OK6zfnCY49nltBpkaMQSrbcnLj/KfY=
+			hJuDgp62zsXXj2aPb4YG21pGfTQP8csJx89yV3DilQ4=
 			</data>
 		</dict>
 		<key>ios-arm64/AdWhaleSDK.framework/GoogleMobileAdsResources.bundle/Info.plist</key>
@@ -533,72 +209,6 @@
 			3MKaofKny2XsBtr+nDzbyWKtdQKvLWbwzgBn8DCIxN8=
 			</data>
 		</dict>
-		<key>ios-arm64/AdWhaleSDK.framework/IronSourceAdQualityPrivacyInfo.bundle/Info.plist</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			/hh+ee1/DhXuY2lrVO2XNWoV9/Q=
-			</data>
-			<key>hash2</key>
-			<data>
-			JpnAnHLQ7mmNGeRWSf++9n+U/af+Xno0HHKPKP875so=
-			</data>
-		</dict>
-		<key>ios-arm64/AdWhaleSDK.framework/IronSourceAdQualityPrivacyInfo.bundle/PrivacyInfo.xcprivacy</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			l2ZduCvSJbNtPnHg+4cAbLgDbyQ=
-			</data>
-			<key>hash2</key>
-			<data>
-			r2z7AqVxBGjN8OndNxmPkrvnp5Bc0eybVPrs5UKShZ8=
-			</data>
-		</dict>
-		<key>ios-arm64/AdWhaleSDK.framework/IronSourcePrivacyInfo.bundle/Info.plist</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			azw+YqOnBgXd15yQTIEavgKz2Rg=
-			</data>
-			<key>hash2</key>
-			<data>
-			14adb7uh9DqEnEudNNISCcUvFQZnca3Lk4s4SkNuBRg=
-			</data>
-		</dict>
-		<key>ios-arm64/AdWhaleSDK.framework/IronSourcePrivacyInfo.bundle/PrivacyInfo.xcprivacy</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			BLNjR6VVI/K82v3iQCE5o0YXgGI=
-			</data>
-			<key>hash2</key>
-			<data>
-			ES/wHPURrhqoWqlouH6JyVI5Y7FKY1pgaWMpkbPGo0E=
-			</data>
-		</dict>
-		<key>ios-arm64/AdWhaleSDK.framework/MTGSDK.bundle/Info.plist</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			dw+J0XytO3MUj1l++42i8jXfOLo=
-			</data>
-			<key>hash2</key>
-			<data>
-			jHTHjsb9R63PvNMnvZ/YaQpfip8a3XfQ51j4VJ+IabU=
-			</data>
-		</dict>
-		<key>ios-arm64/AdWhaleSDK.framework/MTGSDK.bundle/PrivacyInfo.xcprivacy</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			7pb/tiRb/KGE5KXo5P2+XBbJDLs=
-			</data>
-			<key>hash2</key>
-			<data>
-			NBdLMoqFX7Ov/mII2GrezPd6ClAP70i6z2JRWl/xxEg=
-			</data>
-		</dict>
 		<key>ios-arm64/AdWhaleSDK.framework/Modules/AdWhaleSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<dict>
 			<key>hash</key>
@@ -654,193 +264,6 @@
 			zaO78FiYZHeqem93077nnedwM1RrdYXtz14fte2mwdc=
 			</data>
 		</dict>
-		<key>ios-arm64/AdWhaleSDK.framework/PAGAdSDK.bundle/400001562.json</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			OWy+nAUoSGf18os0/Ypy+FPsaH0=
-			</data>
-			<key>hash2</key>
-			<data>
-			f68CEAO4tvsmN3NZWzC0Ib83xLJpSUIn5+oSyN1LwdE=
-			</data>
-		</dict>
-		<key>ios-arm64/AdWhaleSDK.framework/PAGAdSDK.bundle/400001924.json</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			A1Vbzf4WumplRmXGrkvMh453biE=
-			</data>
-			<key>hash2</key>
-			<data>
-			A9Ps9asMrXInRKfssbkWMFGevv98ZMKOW02rDJt4gnE=
-			</data>
-		</dict>
-		<key>ios-arm64/AdWhaleSDK.framework/PAGAdSDK.bundle/400001965.json</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			0Pe66i+Ln7O2oAGT2tLg2rEFPHU=
-			</data>
-			<key>hash2</key>
-			<data>
-			kKIbMHkFu17qwy2hzkg8nDzjPRz9tUC+2IkA545nG90=
-			</data>
-		</dict>
-		<key>ios-arm64/AdWhaleSDK.framework/PAGAdSDK.bundle/400002028.json</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			tTGMs0QKsFzKX/8aF5dE9P0mkys=
-			</data>
-			<key>hash2</key>
-			<data>
-			uJxuONxKGNf1GVsTqZyVRbFNFfNQQc+ZYX/ukZuHxss=
-			</data>
-		</dict>
-		<key>ios-arm64/AdWhaleSDK.framework/PAGAdSDK.bundle/400002029.json</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			uijoBTMtKWICiLnGDujDR0FLdK0=
-			</data>
-			<key>hash2</key>
-			<data>
-			pBbrcjYxcEpVO1uhQT/wduzSPNNj5xUz1y8L0dSHDeY=
-			</data>
-		</dict>
-		<key>ios-arm64/AdWhaleSDK.framework/PAGAdSDK.bundle/400007896.json</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			fAPLnYiX95ptTcM1oOSf+61M/fo=
-			</data>
-			<key>hash2</key>
-			<data>
-			7FRejQA6EO6xM7/Vq8odwaL+zYMFOLQG6UvksqPk+Dg=
-			</data>
-		</dict>
-		<key>ios-arm64/AdWhaleSDK.framework/PAGAdSDK.bundle/400007913.json</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			5q86CJE9HpjQQ9Ukbb9WPcxUxi0=
-			</data>
-			<key>hash2</key>
-			<data>
-			W9xXJWyecKwR527OgT2PElwBZBd+Rp3lxqSPV/sC24M=
-			</data>
-		</dict>
-		<key>ios-arm64/AdWhaleSDK.framework/PAGAdSDK.bundle/400007914.json</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			C9na1jUPC9lfttfQ+c3/zIvM5lg=
-			</data>
-			<key>hash2</key>
-			<data>
-			x2meWrRsMaW574Tibh34fB8SAF9A+EeFw86wIzrwcRU=
-			</data>
-		</dict>
-		<key>ios-arm64/AdWhaleSDK.framework/PAGAdSDK.bundle/400007918.json</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			ps6UK8x6zr8lwb5lndr89EZcL5M=
-			</data>
-			<key>hash2</key>
-			<data>
-			kXeu/VRr7KpBcWD+80yGalGaEHINNAzNc4Bi2j1XKEU=
-			</data>
-		</dict>
-		<key>ios-arm64/AdWhaleSDK.framework/PAGAdSDK.bundle/400007923.json</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			wszSaxcAh8+sfbw5X7r35sGzsrI=
-			</data>
-			<key>hash2</key>
-			<data>
-			P3wuO4W9SIp/mzbPC8yQDURE4nPXgdjKJ6K7feI1MPM=
-			</data>
-		</dict>
-		<key>ios-arm64/AdWhaleSDK.framework/PAGAdSDK.bundle/400007941.json</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			QNNyKQTwHu2w7V229uebCNdtzPs=
-			</data>
-			<key>hash2</key>
-			<data>
-			hmV93IfMO9AQfrKUH0jTC5bLw6p5ffOTmXSekJKQrYI=
-			</data>
-		</dict>
-		<key>ios-arm64/AdWhaleSDK.framework/PAGAdSDK.bundle/400007999.json</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			+uUTZq6R6wiVpauUJPZsrcwZo9E=
-			</data>
-			<key>hash2</key>
-			<data>
-			0ZvzpkSC5n0z7SrSS0dUbe3kBtAf5xhsghbnF2Lw5sw=
-			</data>
-		</dict>
-		<key>ios-arm64/AdWhaleSDK.framework/PAGAdSDK.bundle/Assets.car</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			7p9aS9xmPIWM7ssl5k8EXmPauIU=
-			</data>
-			<key>hash2</key>
-			<data>
-			A7tCMFqJuVHlyvL0gGM8FrHLvcWyxNVk+DlsoXLy6dY=
-			</data>
-		</dict>
-		<key>ios-arm64/AdWhaleSDK.framework/PAGAdSDK.bundle/Info.plist</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			12LcT2l36MwDSS9CMeqJ8XWCIoo=
-			</data>
-			<key>hash2</key>
-			<data>
-			7EgmUJ+XIwJ3P7ikhH2lIBX1Nbh+GRUTeq1gFCVIJGw=
-			</data>
-		</dict>
-		<key>ios-arm64/AdWhaleSDK.framework/PAGAdSDK.bundle/PrivacyInfo.xcprivacy</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			/9EtcEGxvliJS6WqSyAMGN1TBwE=
-			</data>
-			<key>hash2</key>
-			<data>
-			y5cXDuafZAHCK9CZXFBYYkEI7u+LZGwDEwlq24JR8ik=
-			</data>
-		</dict>
-		<key>ios-arm64/AdWhaleSDK.framework/PAGAdSDK.bundle/omsdk-v1.js</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			WX9bWVBNl+h/NW1bQTdx+psJVyU=
-			</data>
-			<key>hash2</key>
-			<data>
-			Hlaaa4S6qm4V7fKq/DHH3FhORcQgKZ+hqniOO4ptmHc=
-			</data>
-		</dict>
-		<key>ios-arm64/AdWhaleSDK.framework/PAGAdSDK.bundle/version.txt</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			UPhuPnV3HwnM86Hjl1Hd4C39m18=
-			</data>
-			<key>hash2</key>
-			<data>
-			f8Z5p2GV6q4TvIFyQPVG11d0KBUCOhBJNRDE3XPIsBc=
-			</data>
-		</dict>
 		<key>ios-arm64/AdWhaleSDK.framework/PrivacyInfo.xcprivacy</key>
 		<dict>
 			<key>hash</key>
@@ -850,72 +273,6 @@
 			<key>hash2</key>
 			<data>
 			gbpqaQNS6Oq1k7z0c4tSHt0GkCG4jjwtOCmF7rIqIjA=
-			</data>
-		</dict>
-		<key>ios-arm64/AdWhaleSDK.framework/TikTokBusinessSDK.bundle/Info.plist</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			OFJVKmNLNbCtf6D5lIg6PFNRPnI=
-			</data>
-			<key>hash2</key>
-			<data>
-			1ptJR7MSfP33NNPY1KgM+QakiOndrqiLTwQa8GE2Ewk=
-			</data>
-		</dict>
-		<key>ios-arm64/AdWhaleSDK.framework/TikTokBusinessSDK.bundle/PrivacyInfo.xcprivacy</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			mTK8OTaETgRAx3w+SAynt3Z+ncw=
-			</data>
-			<key>hash2</key>
-			<data>
-			h5ztaf1/AS8qM+j6tlwi+JwB+KQEegXx5+aea9fQc/M=
-			</data>
-		</dict>
-		<key>ios-arm64/AdWhaleSDK.framework/UnityAdsResources.bundle/Info.plist</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			cAaPks0foUuXeQhua4otqYN8ysc=
-			</data>
-			<key>hash2</key>
-			<data>
-			L6cfMlFtBrpk15rWvEwk/kzWqTbXIgO0vuR5ose73qM=
-			</data>
-		</dict>
-		<key>ios-arm64/AdWhaleSDK.framework/UnityAdsResources.bundle/PrivacyInfo.xcprivacy</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			Vmr7Tv9rcKyDvK3D48LDE7Da57Y=
-			</data>
-			<key>hash2</key>
-			<data>
-			f3FIPJmP/SZx3Vlg4pLmKnlyAbkHD2JKFo75koJnVG4=
-			</data>
-		</dict>
-		<key>ios-arm64/AdWhaleSDK.framework/UnityAdsResources.bundle/omid-session-client-v1.js</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			7sp3Ar5eWE8CR1N+eYJLzLQ6YcQ=
-			</data>
-			<key>hash2</key>
-			<data>
-			Te3Jr5e6bZwJTWB4sAfgAvADNUKj/J9l6nJyJYjRWdw=
-			</data>
-		</dict>
-		<key>ios-arm64/AdWhaleSDK.framework/UnityAdsResources.bundle/omsdk-v1.js</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			6+hfCdXnixKm+657WUiXeprAN1c=
-			</data>
-			<key>hash2</key>
-			<data>
-			wdHo+ZxIr5eFSs8kgj8Q2jorPZzSti3/PJO59hk3RRw=
 			</data>
 		</dict>
 		<key>ios-arm64/AdWhaleSDK.framework/UserMessagingPlatformResources.bundle/Info.plist</key>
@@ -940,92 +297,26 @@
 			RbetuZ/NLZYqHIAPv8wTJbV6f6QWX0FhgjI7tf/pyQA=
 			</data>
 		</dict>
-		<key>ios-arm64/AdWhaleSDK.framework/VungleAds.bundle/Info.plist</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			VFFonCgI+OCCws2rURqTxcbAOOE=
-			</data>
-			<key>hash2</key>
-			<data>
-			uOKo/SFVcsOo4ezHPfRNBnLcrXUXJAqrbvn0O7GqPC0=
-			</data>
-		</dict>
-		<key>ios-arm64/AdWhaleSDK.framework/VungleAds.bundle/PrivacyInfo.xcprivacy</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			COhxM0H7+Gp/ed2fy4Li+IZWHRQ=
-			</data>
-			<key>hash2</key>
-			<data>
-			YAGiRWxwvRHypK5douHP5fWvYgPwyj/xXlq1RpJ1kAQ=
-			</data>
-		</dict>
 		<key>ios-arm64/AdWhaleSDK.framework/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			TbCFzL5qiys37ovH8by02v1N0jY=
+			tXx/3AuKuRcjdUaR4n5jQnVkRQw=
 			</data>
 			<key>hash2</key>
 			<data>
-			LqvufK1PTbmfscZ6sxLWeL+3d6Wtt5kLIYBhgpT/mxo=
+			+34ed5lLaLOEqnk413WdEJewQbSmboS4vZnfLCauUkU=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/AdWhaleSDK.framework/AdWhaleSDK</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			cEtlVrpUGQMDHh0rzwNtSVJlwo0=
+			3rCH11MgWmghpXdGNmxQ2EWLa1I=
 			</data>
 			<key>hash2</key>
 			<data>
-			e7K3i4KZhyUvegRWl7lXnNOItGba1lPmpGRMPyVqyww=
-			</data>
-		</dict>
-		<key>ios-arm64_x86_64-simulator/AdWhaleSDK.framework/AdsGlobalSDK.bundle/Info.plist</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			9NgiV1cqMmb/bHhs0V7OJL1wlQc=
-			</data>
-			<key>hash2</key>
-			<data>
-			qd/7O8ltVwXe3LV6GFK8REXig+4imf//M+a17zaQKBI=
-			</data>
-		</dict>
-		<key>ios-arm64_x86_64-simulator/AdWhaleSDK.framework/AdsGlobalSDK.bundle/PrivacyInfo.xcprivacy</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			/9EtcEGxvliJS6WqSyAMGN1TBwE=
-			</data>
-			<key>hash2</key>
-			<data>
-			y5cXDuafZAHCK9CZXFBYYkEI7u+LZGwDEwlq24JR8ik=
-			</data>
-		</dict>
-		<key>ios-arm64_x86_64-simulator/AdWhaleSDK.framework/Fyber_Marketplace_SDK.bundle/Info.plist</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			ce2DOiBo0presG0RReIwyw0BkGA=
-			</data>
-			<key>hash2</key>
-			<data>
-			qRfotrQRySn4jkg1CzAbAUnhrPSZAV+KjuVONj5A7w4=
-			</data>
-		</dict>
-		<key>ios-arm64_x86_64-simulator/AdWhaleSDK.framework/Fyber_Marketplace_SDK.bundle/PrivacyInfo.xcprivacy</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			wQj/VbiBnny3b63k0acjA2qnfNs=
-			</data>
-			<key>hash2</key>
-			<data>
-			dDIi4xb1Sm+j5OK6zfnCY49nltBpkaMQSrbcnLj/KfY=
+			+HL6JYcT69R6rrZfQJbFP2adwMTdvxmB6N5/dov6LmM=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/AdWhaleSDK.framework/GoogleMobileAdsResources.bundle/Info.plist</key>
@@ -1081,72 +372,6 @@
 			<key>hash2</key>
 			<data>
 			lJ0GRW8+cTxT0Zd6sOqnOeXQoVXMjCcpCLDSxTV/nyw=
-			</data>
-		</dict>
-		<key>ios-arm64_x86_64-simulator/AdWhaleSDK.framework/IronSourceAdQualityPrivacyInfo.bundle/Info.plist</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			pMEotOJl6vucFojo0AjNDQHHGOY=
-			</data>
-			<key>hash2</key>
-			<data>
-			345NIdZy6gZGCN7K0fBzkrXa0TTShAQ3QzacMnA+kE8=
-			</data>
-		</dict>
-		<key>ios-arm64_x86_64-simulator/AdWhaleSDK.framework/IronSourceAdQualityPrivacyInfo.bundle/PrivacyInfo.xcprivacy</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			l2ZduCvSJbNtPnHg+4cAbLgDbyQ=
-			</data>
-			<key>hash2</key>
-			<data>
-			r2z7AqVxBGjN8OndNxmPkrvnp5Bc0eybVPrs5UKShZ8=
-			</data>
-		</dict>
-		<key>ios-arm64_x86_64-simulator/AdWhaleSDK.framework/IronSourcePrivacyInfo.bundle/Info.plist</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			lVJTPT+0Xqym7gswkElGU2IHZkE=
-			</data>
-			<key>hash2</key>
-			<data>
-			v5yr/ZVVQdXXEo/NEZKZD21Y4/FdvF/C18k16wPnkd8=
-			</data>
-		</dict>
-		<key>ios-arm64_x86_64-simulator/AdWhaleSDK.framework/IronSourcePrivacyInfo.bundle/PrivacyInfo.xcprivacy</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			BLNjR6VVI/K82v3iQCE5o0YXgGI=
-			</data>
-			<key>hash2</key>
-			<data>
-			ES/wHPURrhqoWqlouH6JyVI5Y7FKY1pgaWMpkbPGo0E=
-			</data>
-		</dict>
-		<key>ios-arm64_x86_64-simulator/AdWhaleSDK.framework/MTGSDK.bundle/Info.plist</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			+MTDYLQBHm+aUhMMIIpeKqFEfPk=
-			</data>
-			<key>hash2</key>
-			<data>
-			vJugpana2N1m+ySALjtH41pL7zFI1tlpHBGpApYPQ5Q=
-			</data>
-		</dict>
-		<key>ios-arm64_x86_64-simulator/AdWhaleSDK.framework/MTGSDK.bundle/PrivacyInfo.xcprivacy</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			7pb/tiRb/KGE5KXo5P2+XBbJDLs=
-			</data>
-			<key>hash2</key>
-			<data>
-			NBdLMoqFX7Ov/mII2GrezPd6ClAP70i6z2JRWl/xxEg=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/AdWhaleSDK.framework/Modules/AdWhaleSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
@@ -1248,193 +473,6 @@
 			zaO78FiYZHeqem93077nnedwM1RrdYXtz14fte2mwdc=
 			</data>
 		</dict>
-		<key>ios-arm64_x86_64-simulator/AdWhaleSDK.framework/PAGAdSDK.bundle/400001562.json</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			OWy+nAUoSGf18os0/Ypy+FPsaH0=
-			</data>
-			<key>hash2</key>
-			<data>
-			f68CEAO4tvsmN3NZWzC0Ib83xLJpSUIn5+oSyN1LwdE=
-			</data>
-		</dict>
-		<key>ios-arm64_x86_64-simulator/AdWhaleSDK.framework/PAGAdSDK.bundle/400001924.json</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			A1Vbzf4WumplRmXGrkvMh453biE=
-			</data>
-			<key>hash2</key>
-			<data>
-			A9Ps9asMrXInRKfssbkWMFGevv98ZMKOW02rDJt4gnE=
-			</data>
-		</dict>
-		<key>ios-arm64_x86_64-simulator/AdWhaleSDK.framework/PAGAdSDK.bundle/400001965.json</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			0Pe66i+Ln7O2oAGT2tLg2rEFPHU=
-			</data>
-			<key>hash2</key>
-			<data>
-			kKIbMHkFu17qwy2hzkg8nDzjPRz9tUC+2IkA545nG90=
-			</data>
-		</dict>
-		<key>ios-arm64_x86_64-simulator/AdWhaleSDK.framework/PAGAdSDK.bundle/400002028.json</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			tTGMs0QKsFzKX/8aF5dE9P0mkys=
-			</data>
-			<key>hash2</key>
-			<data>
-			uJxuONxKGNf1GVsTqZyVRbFNFfNQQc+ZYX/ukZuHxss=
-			</data>
-		</dict>
-		<key>ios-arm64_x86_64-simulator/AdWhaleSDK.framework/PAGAdSDK.bundle/400002029.json</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			uijoBTMtKWICiLnGDujDR0FLdK0=
-			</data>
-			<key>hash2</key>
-			<data>
-			pBbrcjYxcEpVO1uhQT/wduzSPNNj5xUz1y8L0dSHDeY=
-			</data>
-		</dict>
-		<key>ios-arm64_x86_64-simulator/AdWhaleSDK.framework/PAGAdSDK.bundle/400007896.json</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			fAPLnYiX95ptTcM1oOSf+61M/fo=
-			</data>
-			<key>hash2</key>
-			<data>
-			7FRejQA6EO6xM7/Vq8odwaL+zYMFOLQG6UvksqPk+Dg=
-			</data>
-		</dict>
-		<key>ios-arm64_x86_64-simulator/AdWhaleSDK.framework/PAGAdSDK.bundle/400007913.json</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			5q86CJE9HpjQQ9Ukbb9WPcxUxi0=
-			</data>
-			<key>hash2</key>
-			<data>
-			W9xXJWyecKwR527OgT2PElwBZBd+Rp3lxqSPV/sC24M=
-			</data>
-		</dict>
-		<key>ios-arm64_x86_64-simulator/AdWhaleSDK.framework/PAGAdSDK.bundle/400007914.json</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			C9na1jUPC9lfttfQ+c3/zIvM5lg=
-			</data>
-			<key>hash2</key>
-			<data>
-			x2meWrRsMaW574Tibh34fB8SAF9A+EeFw86wIzrwcRU=
-			</data>
-		</dict>
-		<key>ios-arm64_x86_64-simulator/AdWhaleSDK.framework/PAGAdSDK.bundle/400007918.json</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			ps6UK8x6zr8lwb5lndr89EZcL5M=
-			</data>
-			<key>hash2</key>
-			<data>
-			kXeu/VRr7KpBcWD+80yGalGaEHINNAzNc4Bi2j1XKEU=
-			</data>
-		</dict>
-		<key>ios-arm64_x86_64-simulator/AdWhaleSDK.framework/PAGAdSDK.bundle/400007923.json</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			wszSaxcAh8+sfbw5X7r35sGzsrI=
-			</data>
-			<key>hash2</key>
-			<data>
-			P3wuO4W9SIp/mzbPC8yQDURE4nPXgdjKJ6K7feI1MPM=
-			</data>
-		</dict>
-		<key>ios-arm64_x86_64-simulator/AdWhaleSDK.framework/PAGAdSDK.bundle/400007941.json</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			QNNyKQTwHu2w7V229uebCNdtzPs=
-			</data>
-			<key>hash2</key>
-			<data>
-			hmV93IfMO9AQfrKUH0jTC5bLw6p5ffOTmXSekJKQrYI=
-			</data>
-		</dict>
-		<key>ios-arm64_x86_64-simulator/AdWhaleSDK.framework/PAGAdSDK.bundle/400007999.json</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			+uUTZq6R6wiVpauUJPZsrcwZo9E=
-			</data>
-			<key>hash2</key>
-			<data>
-			0ZvzpkSC5n0z7SrSS0dUbe3kBtAf5xhsghbnF2Lw5sw=
-			</data>
-		</dict>
-		<key>ios-arm64_x86_64-simulator/AdWhaleSDK.framework/PAGAdSDK.bundle/Assets.car</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			7p9aS9xmPIWM7ssl5k8EXmPauIU=
-			</data>
-			<key>hash2</key>
-			<data>
-			A7tCMFqJuVHlyvL0gGM8FrHLvcWyxNVk+DlsoXLy6dY=
-			</data>
-		</dict>
-		<key>ios-arm64_x86_64-simulator/AdWhaleSDK.framework/PAGAdSDK.bundle/Info.plist</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			12LcT2l36MwDSS9CMeqJ8XWCIoo=
-			</data>
-			<key>hash2</key>
-			<data>
-			7EgmUJ+XIwJ3P7ikhH2lIBX1Nbh+GRUTeq1gFCVIJGw=
-			</data>
-		</dict>
-		<key>ios-arm64_x86_64-simulator/AdWhaleSDK.framework/PAGAdSDK.bundle/PrivacyInfo.xcprivacy</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			/9EtcEGxvliJS6WqSyAMGN1TBwE=
-			</data>
-			<key>hash2</key>
-			<data>
-			y5cXDuafZAHCK9CZXFBYYkEI7u+LZGwDEwlq24JR8ik=
-			</data>
-		</dict>
-		<key>ios-arm64_x86_64-simulator/AdWhaleSDK.framework/PAGAdSDK.bundle/omsdk-v1.js</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			WX9bWVBNl+h/NW1bQTdx+psJVyU=
-			</data>
-			<key>hash2</key>
-			<data>
-			Hlaaa4S6qm4V7fKq/DHH3FhORcQgKZ+hqniOO4ptmHc=
-			</data>
-		</dict>
-		<key>ios-arm64_x86_64-simulator/AdWhaleSDK.framework/PAGAdSDK.bundle/version.txt</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			UPhuPnV3HwnM86Hjl1Hd4C39m18=
-			</data>
-			<key>hash2</key>
-			<data>
-			f8Z5p2GV6q4TvIFyQPVG11d0KBUCOhBJNRDE3XPIsBc=
-			</data>
-		</dict>
 		<key>ios-arm64_x86_64-simulator/AdWhaleSDK.framework/PrivacyInfo.xcprivacy</key>
 		<dict>
 			<key>hash</key>
@@ -1444,72 +482,6 @@
 			<key>hash2</key>
 			<data>
 			gbpqaQNS6Oq1k7z0c4tSHt0GkCG4jjwtOCmF7rIqIjA=
-			</data>
-		</dict>
-		<key>ios-arm64_x86_64-simulator/AdWhaleSDK.framework/TikTokBusinessSDK.bundle/Info.plist</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			eefBQontJgaOA/nRQ7JipYU4lM0=
-			</data>
-			<key>hash2</key>
-			<data>
-			EmT6EonK6CZSbET37wWhH67OyrA+Gf1PcX39hD/LTOk=
-			</data>
-		</dict>
-		<key>ios-arm64_x86_64-simulator/AdWhaleSDK.framework/TikTokBusinessSDK.bundle/PrivacyInfo.xcprivacy</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			mTK8OTaETgRAx3w+SAynt3Z+ncw=
-			</data>
-			<key>hash2</key>
-			<data>
-			h5ztaf1/AS8qM+j6tlwi+JwB+KQEegXx5+aea9fQc/M=
-			</data>
-		</dict>
-		<key>ios-arm64_x86_64-simulator/AdWhaleSDK.framework/UnityAdsResources.bundle/Info.plist</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			zvQeyPFKf+9NtXff0h0HVAgO9IE=
-			</data>
-			<key>hash2</key>
-			<data>
-			1J1nzNuf3PJ558NDxrPUgEiR3gxw1sU9pX6/taEhdzc=
-			</data>
-		</dict>
-		<key>ios-arm64_x86_64-simulator/AdWhaleSDK.framework/UnityAdsResources.bundle/PrivacyInfo.xcprivacy</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			Vmr7Tv9rcKyDvK3D48LDE7Da57Y=
-			</data>
-			<key>hash2</key>
-			<data>
-			f3FIPJmP/SZx3Vlg4pLmKnlyAbkHD2JKFo75koJnVG4=
-			</data>
-		</dict>
-		<key>ios-arm64_x86_64-simulator/AdWhaleSDK.framework/UnityAdsResources.bundle/omid-session-client-v1.js</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			7sp3Ar5eWE8CR1N+eYJLzLQ6YcQ=
-			</data>
-			<key>hash2</key>
-			<data>
-			Te3Jr5e6bZwJTWB4sAfgAvADNUKj/J9l6nJyJYjRWdw=
-			</data>
-		</dict>
-		<key>ios-arm64_x86_64-simulator/AdWhaleSDK.framework/UnityAdsResources.bundle/omsdk-v1.js</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			6+hfCdXnixKm+657WUiXeprAN1c=
-			</data>
-			<key>hash2</key>
-			<data>
-			wdHo+ZxIr5eFSs8kgj8Q2jorPZzSti3/PJO59hk3RRw=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/AdWhaleSDK.framework/UserMessagingPlatformResources.bundle/Info.plist</key>
@@ -1534,37 +506,15 @@
 			RbetuZ/NLZYqHIAPv8wTJbV6f6QWX0FhgjI7tf/pyQA=
 			</data>
 		</dict>
-		<key>ios-arm64_x86_64-simulator/AdWhaleSDK.framework/VungleAds.bundle/Info.plist</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			v8izlgRdR5dekIPGPpz7ui9kzho=
-			</data>
-			<key>hash2</key>
-			<data>
-			mBxrT/K7EnPB7eWLwO6M3frgHuRrA/slLwwnLsiH5Ak=
-			</data>
-		</dict>
-		<key>ios-arm64_x86_64-simulator/AdWhaleSDK.framework/VungleAds.bundle/PrivacyInfo.xcprivacy</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			COhxM0H7+Gp/ed2fy4Li+IZWHRQ=
-			</data>
-			<key>hash2</key>
-			<data>
-			YAGiRWxwvRHypK5douHP5fWvYgPwyj/xXlq1RpJ1kAQ=
-			</data>
-		</dict>
 		<key>ios-arm64_x86_64-simulator/AdWhaleSDK.framework/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			n3w/DlcZ04i2CThbsnO7jzYa78g=
+			Z0eGvY9gpOvy2Qq64O9j6l6w/x4=
 			</data>
 			<key>hash2</key>
 			<data>
-			ZHpNHGbj6/6PpH3Gbs5PxS4utUjxwqvfc63jto58b4g=
+			XzGZ7343RRJMXDzuCdKEfYN/heWztIi1XLjQneUIg90=
 			</data>
 		</dict>
 	</dict>
