@@ -9,7 +9,7 @@ let package = Package(
     ],
     products: [
         .library(
-            name: "AdWhaleSPM",
+            name: "AdWhaleSDK",
             targets: ["AdWhaleSDKResources"]
         )
     ],

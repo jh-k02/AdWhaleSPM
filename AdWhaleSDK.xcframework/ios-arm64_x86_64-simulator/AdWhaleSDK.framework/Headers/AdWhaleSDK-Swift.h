@@ -283,6 +283,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #endif
 @import CoreFoundation;
 @import Foundation;
+@import GoogleMobileAds;
 @import ObjectiveC;
 @import UIKit;
 #endif
@@ -337,16 +338,25 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) AdWhaleAds *
 /// UMP GDPR
 /// testDevices: 테스트 디바이스 설정
 - (void)gdpr:(UIViewController * _Nonnull)rootViewController testDevices:(NSArray<NSString *> * _Nullable)testDevices completionHandler:(void (^ _Nonnull)(BOOL))completionHandler;
-- (void)tagForChildDirectedTreatment:(NSNumber * _Nonnull)tagForChildDirectedTreatment;
-- (void)tagForUnderAgeOfConsent:(NSNumber * _Nonnull)tagForUnderAgeOfConsent;
+- (BOOL)getGdprConsentStatus SWIFT_WARN_UNUSED_RESULT;
+- (void)setTagForChildDirectedTreatment:(NSNumber * _Nonnull)tagForChildDirectedTreatment;
+- (NSNumber * _Nullable)getTagForChildDirectedTreatment SWIFT_WARN_UNUSED_RESULT;
+- (void)setTagForUnderAgeOfConsent:(NSNumber * _Nonnull)tagForUnderAgeOfConsent;
+- (NSNumber * _Nullable)getTagForUnderAgeOfConsent SWIFT_WARN_UNUSED_RESULT;
 - (void)maxAdContentRating:(enum AdWhaleMaxAdContentRating)maxAdContentRating;
+- (NSString * _Nullable)getMaxAdContentRating SWIFT_WARN_UNUSED_RESULT;
 - (void)resetGDPRWithCompletionHandler:(void (^ _Nonnull)(void))completionHandler;
 - (BOOL)canShowAds SWIFT_WARN_UNUSED_RESULT;
+- (BOOL)canRequestAds SWIFT_WARN_UNUSED_RESULT;
 - (BOOL)isGDPR SWIFT_WARN_UNUSED_RESULT;
 - (void)setLogLevelWithLogLevel:(enum AdWhaleLogLevel)logLevel;
-- (void)setTestDeviceIdentifiersWithTestDeviceIdentifiers:(NSString * _Nonnull)testDeviceIdentifiers;
+- (enum AdWhaleLogLevel)getLogLevel SWIFT_WARN_UNUSED_RESULT;
+- (void)setTestDeviceIdentifiers:(NSArray * _Nonnull)identifiers;
 - (void)showAdInspectorWithViewController:(UIViewController * _Nonnull)viewController;
 - (void)showAdInspectorWithViewController:(UIViewController * _Nonnull)viewController completion:(void (^ _Nonnull)(NSError * _Nullable))completion;
+- (void)setMuted:(BOOL)muted;
+- (BOOL)isMuted SWIFT_WARN_UNUSED_RESULT;
+- (void)setVolume:(float)volume;
 @end
 
 @protocol AdWhaleAppOpenAdDelegate;
@@ -361,6 +371,13 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) AdWhaleAppOp
 - (void)loadAd;
 - (void)showAdIfAvailable;
 - (void)showAdIfAvailable:(UIViewController * _Nullable)viewController;
+@end
+
+@protocol GADFullScreenPresentingAd;
+@interface AdWhaleAppOpenAd (SWIFT_EXTENSION(AdWhaleSDK)) <GADFullScreenContentDelegate>
+- (void)adWillPresentFullScreenContent:(id <GADFullScreenPresentingAd> _Nonnull)ad;
+- (void)adDidDismissFullScreenContent:(id <GADFullScreenPresentingAd> _Nonnull)ad;
+- (void)ad:(id <GADFullScreenPresentingAd> _Nonnull)ad didFailToPresentFullScreenContentWithError:(NSError * _Nonnull)error;
 @end
 
 SWIFT_PROTOCOL("_TtP10AdWhaleSDK24AdWhaleAppOpenAdDelegate_")
@@ -379,8 +396,9 @@ SWIFT_PROTOCOL("_TtP10AdWhaleSDK28AdWhaleAppOpenAdViewDelegate_")
 
 @class NSCoder;
 @protocol AdWhaleBannerDelegate;
+@class GADBannerView;
 SWIFT_CLASS("_TtC10AdWhaleSDK15AdWhaleBannerAd")
-@interface AdWhaleBannerAd : UIView
+@interface AdWhaleBannerAd : UIView <GADBannerViewDelegate>
 - (nonnull instancetype)init:(NSString * _Nonnull)adUnitId adSize:(enum AdWhaleAdSize)adSize rootViewController:(UIViewController * _Nonnull)rootViewController OBJC_DESIGNATED_INITIALIZER;
 - (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
 - (nonnull instancetype)init:(enum AdWhaleAdSize)adSize OBJC_DESIGNATED_INITIALIZER;
@@ -390,6 +408,13 @@ SWIFT_CLASS("_TtC10AdWhaleSDK15AdWhaleBannerAd")
 - (void)setDelegate:(id <AdWhaleBannerDelegate> _Nullable)delegate;
 - (void)setRootViewController:(UIViewController * _Nullable)rootViewController;
 - (void)load;
+- (void)bannerViewDidReceiveAd:(GADBannerView * _Nonnull)bannerView;
+- (void)bannerView:(GADBannerView * _Nonnull)bannerView didFailToReceiveAdWithError:(NSError * _Nonnull)error;
+- (void)bannerViewDidRecordImpression:(GADBannerView * _Nonnull)bannerView;
+- (void)bannerViewWillPresentScreen:(GADBannerView * _Nonnull)bannerView;
+- (void)bannerViewWillDismissScreen:(GADBannerView * _Nonnull)bannerView;
+- (void)bannerViewDidDismissScreen:(GADBannerView * _Nonnull)bannerView;
+- (void)bannerViewDidRecordClick:(GADBannerView * _Nonnull)bannerView;
 - (void)destroy;
 @end
 
@@ -410,6 +435,14 @@ SWIFT_CLASS("_TtC10AdWhaleSDK21AdWhaleInterstitialAd")
 - (void)load:(NSString * _Nonnull)adUnitId;
 - (void)show:(UIViewController * _Nonnull)rootViewController;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
+@interface AdWhaleInterstitialAd (SWIFT_EXTENSION(AdWhaleSDK)) <GADFullScreenContentDelegate>
+/// Tells the delegate that the ad will present full screen content.
+- (void)adWillPresentFullScreenContent:(id <GADFullScreenPresentingAd> _Nonnull)ad;
+/// Tells the delegate that the ad dismissed full screen content.
+- (void)adDidDismissFullScreenContent:(id <GADFullScreenPresentingAd> _Nonnull)ad;
+- (void)ad:(id <GADFullScreenPresentingAd> _Nonnull)ad didFailToPresentFullScreenContentWithError:(NSError * _Nonnull)error;
 @end
 
 SWIFT_PROTOCOL("_TtP10AdWhaleSDK27AdWhaleInterstitialDelegate_")
@@ -437,21 +470,15 @@ typedef SWIFT_ENUM(NSInteger, AdWhaleMaxAdContentRating, open) {
   AdWhaleMaxAdContentRatingMatureAudience = 3,
 };
 
-SWIFT_CLASS("_TtC10AdWhaleSDK19AdWhaleMediaContent")
-@interface AdWhaleMediaContent : NSObject
-@property (nonatomic, readonly) CGFloat aspectRatio;
-- (nonnull instancetype)init SWIFT_UNAVAILABLE;
-+ (nonnull instancetype)new SWIFT_DEPRECATED_MSG("-init is unavailable");
-@end
-
 SWIFT_CLASS("_TtC10AdWhaleSDK16AdWhaleMediaView")
-@interface AdWhaleMediaView : UIView
+@interface AdWhaleMediaView : GADMediaView
 - (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end
 
 @protocol AdWhaleNativeAdDelegate;
 @class UIImage;
+@class GADMediaContent;
 SWIFT_CLASS("_TtC10AdWhaleSDK15AdWhaleNativeAd")
 @interface AdWhaleNativeAd : NSObject
 @property (nonatomic, weak) id <AdWhaleNativeAdDelegate> _Nullable delegate;
@@ -461,7 +488,7 @@ SWIFT_CLASS("_TtC10AdWhaleSDK15AdWhaleNativeAd")
 @property (nonatomic, copy) NSString * _Nullable profileName;
 @property (nonatomic, copy) NSString * _Nullable callToAction;
 @property (nonatomic, strong) UIImage * _Nullable icon;
-@property (nonatomic, strong) AdWhaleMediaContent * _Nullable mediaContent;
+@property (nonatomic, strong) GADMediaContent * _Nullable mediaContent;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
@@ -481,16 +508,29 @@ enum AdWhaleNativeAspectRatio : NSInteger;
 SWIFT_CLASS("_TtC10AdWhaleSDK21AdWhaleNativeAdLoader")
 @interface AdWhaleNativeAdLoader : NSObject
 @property (nonatomic, weak) id <AdWhaleNativeAdLoaderDelegate> _Nullable delegate;
-SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) AdWhaleNativeAdLoader * _Nonnull sharedInstance;)
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) AdWhaleNativeAdLoader * _Nonnull sharedInstance SWIFT_DEPRECATED;)
 + (AdWhaleNativeAdLoader * _Nonnull)sharedInstance SWIFT_WARN_UNUSED_RESULT;
-- (nonnull instancetype)init SWIFT_UNAVAILABLE;
-+ (nonnull instancetype)new SWIFT_DEPRECATED_MSG("-init is unavailable");
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)initWithAdUnitId:(NSString * _Nonnull)adUnitId rootViewController:(UIViewController * _Nonnull)rootViewController aspectRatioOption:(enum AdWhaleNativeAspectRatio)aspectRatioOption;
 - (void)initializeWithAdUnitId:(NSString * _Nonnull)adUnitId rootViewController:(UIViewController * _Nonnull)rootViewController;
 - (void)initializeWithAdUnitId:(NSString * _Nonnull)adUnitId rootViewController:(UIViewController * _Nonnull)rootViewController aspectRatioOption:(enum AdWhaleNativeAspectRatio)aspectRatioOption;
 - (void)setRootViewController:(UIViewController * _Nullable)rootViewController;
 - (void)loadAd;
 - (void)bind:(AdWhaleNativeAdView * _Nonnull)nativeAdView;
 - (AdWhaleNativeAdView * _Nullable)bindView:(UIView * _Nonnull)renderingView SWIFT_WARN_UNUSED_RESULT;
+- (void)destroy;
+@end
+
+@class GADAdLoader;
+@class GADNativeAd;
+@interface AdWhaleNativeAdLoader (SWIFT_EXTENSION(AdWhaleSDK)) <GADNativeAdDelegate, GADNativeAdLoaderDelegate>
+- (void)adLoader:(GADAdLoader * _Nonnull)adLoader didReceiveNativeAd:(GADNativeAd * _Nonnull)nativeAd;
+- (void)adLoader:(GADAdLoader * _Nonnull)adLoader didFailToReceiveAdWithError:(NSError * _Nonnull)error;
+- (void)nativeAdDidRecordImpression:(GADNativeAd * _Nonnull)nativeAd;
+- (void)nativeAdDidRecordClick:(GADNativeAd * _Nonnull)nativeAd;
+- (void)nativeAdWillPresentScreen:(GADNativeAd * _Nonnull)nativeAd;
+- (void)nativeAdWillDismissScreen:(GADNativeAd * _Nonnull)nativeAd;
+- (void)nativeAdDidDismissScreen:(GADNativeAd * _Nonnull)nativeAd;
 @end
 
 SWIFT_PROTOCOL("_TtP10AdWhaleSDK29AdWhaleNativeAdLoaderDelegate_")
@@ -513,15 +553,15 @@ SWIFT_PROTOCOL("_TtP10AdWhaleSDK17AdWhaleRenderable_")
 @end
 
 SWIFT_CLASS("_TtC10AdWhaleSDK19AdWhaleNativeAdView")
-@interface AdWhaleNativeAdView : UIView <AdWhaleRenderable>
-- (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
-- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+@interface AdWhaleNativeAdView : GADNativeAdView <AdWhaleRenderable>
 - (UILabel * _Nonnull)adTitleLabel SWIFT_WARN_UNUSED_RESULT;
 - (UILabel * _Nonnull)adBodyLabel SWIFT_WARN_UNUSED_RESULT;
 - (UIButton * _Nonnull)adCallToActionButton SWIFT_WARN_UNUSED_RESULT;
 - (UILabel * _Nonnull)adProfileNameLabel SWIFT_WARN_UNUSED_RESULT;
 - (UIImageView * _Nonnull)adProfileIconView SWIFT_WARN_UNUSED_RESULT;
 - (AdWhaleMediaView * _Nonnull)adMediaView SWIFT_WARN_UNUSED_RESULT;
+- (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end
 
 typedef SWIFT_ENUM(NSInteger, AdWhaleNativeAspectRatio, open) {
@@ -542,10 +582,15 @@ SWIFT_CLASS("_TtC10AdWhaleSDK13AdWhaleReward")
 
 @protocol AdWhaleRewardDelegate;
 SWIFT_CLASS("_TtC10AdWhaleSDK15AdWhaleRewardAd")
-@interface AdWhaleRewardAd : NSObject
+@interface AdWhaleRewardAd : NSObject <GADFullScreenContentDelegate>
 @property (nonatomic, weak) id <AdWhaleRewardDelegate> _Nullable rewardDelegate;
 - (void)load:(NSString * _Nonnull)adUnitId;
 - (void)show:(UIViewController * _Nonnull)rootViewController;
+- (void)ad:(id <GADFullScreenPresentingAd> _Nonnull)ad didFailToPresentFullScreenContentWithError:(NSError * _Nonnull)error;
+/// Tells the delegate that the ad will present full screen content.
+- (void)adWillPresentFullScreenContent:(id <GADFullScreenPresentingAd> _Nonnull)ad;
+/// Tells the delegate that the ad dismissed full screen content.
+- (void)adDidDismissFullScreenContent:(id <GADFullScreenPresentingAd> _Nonnull)ad;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
@@ -560,6 +605,13 @@ SWIFT_PROTOCOL("_TtP10AdWhaleSDK21AdWhaleRewardDelegate_")
 /// Tells the delegate that the ad dismissed full screen content.
 - (void)adDidDismissRewardAd:(AdWhaleRewardAd * _Nonnull)ad;
 @end
+
+typedef SWIFT_ENUM(NSInteger, GdprConsentStatus, open) {
+  GdprConsentStatusUnknown = 0,
+  GdprConsentStatusRequired = 1,
+  GdprConsentStatusNotRequired = 2,
+  GdprConsentStatusObtained = 3,
+};
 
 #endif
 #if __has_attribute(external_source_symbol)
@@ -854,6 +906,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #endif
 @import CoreFoundation;
 @import Foundation;
+@import GoogleMobileAds;
 @import ObjectiveC;
 @import UIKit;
 #endif
@@ -908,16 +961,25 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) AdWhaleAds *
 /// UMP GDPR
 /// testDevices: 테스트 디바이스 설정
 - (void)gdpr:(UIViewController * _Nonnull)rootViewController testDevices:(NSArray<NSString *> * _Nullable)testDevices completionHandler:(void (^ _Nonnull)(BOOL))completionHandler;
-- (void)tagForChildDirectedTreatment:(NSNumber * _Nonnull)tagForChildDirectedTreatment;
-- (void)tagForUnderAgeOfConsent:(NSNumber * _Nonnull)tagForUnderAgeOfConsent;
+- (BOOL)getGdprConsentStatus SWIFT_WARN_UNUSED_RESULT;
+- (void)setTagForChildDirectedTreatment:(NSNumber * _Nonnull)tagForChildDirectedTreatment;
+- (NSNumber * _Nullable)getTagForChildDirectedTreatment SWIFT_WARN_UNUSED_RESULT;
+- (void)setTagForUnderAgeOfConsent:(NSNumber * _Nonnull)tagForUnderAgeOfConsent;
+- (NSNumber * _Nullable)getTagForUnderAgeOfConsent SWIFT_WARN_UNUSED_RESULT;
 - (void)maxAdContentRating:(enum AdWhaleMaxAdContentRating)maxAdContentRating;
+- (NSString * _Nullable)getMaxAdContentRating SWIFT_WARN_UNUSED_RESULT;
 - (void)resetGDPRWithCompletionHandler:(void (^ _Nonnull)(void))completionHandler;
 - (BOOL)canShowAds SWIFT_WARN_UNUSED_RESULT;
+- (BOOL)canRequestAds SWIFT_WARN_UNUSED_RESULT;
 - (BOOL)isGDPR SWIFT_WARN_UNUSED_RESULT;
 - (void)setLogLevelWithLogLevel:(enum AdWhaleLogLevel)logLevel;
-- (void)setTestDeviceIdentifiersWithTestDeviceIdentifiers:(NSString * _Nonnull)testDeviceIdentifiers;
+- (enum AdWhaleLogLevel)getLogLevel SWIFT_WARN_UNUSED_RESULT;
+- (void)setTestDeviceIdentifiers:(NSArray * _Nonnull)identifiers;
 - (void)showAdInspectorWithViewController:(UIViewController * _Nonnull)viewController;
 - (void)showAdInspectorWithViewController:(UIViewController * _Nonnull)viewController completion:(void (^ _Nonnull)(NSError * _Nullable))completion;
+- (void)setMuted:(BOOL)muted;
+- (BOOL)isMuted SWIFT_WARN_UNUSED_RESULT;
+- (void)setVolume:(float)volume;
 @end
 
 @protocol AdWhaleAppOpenAdDelegate;
@@ -932,6 +994,13 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) AdWhaleAppOp
 - (void)loadAd;
 - (void)showAdIfAvailable;
 - (void)showAdIfAvailable:(UIViewController * _Nullable)viewController;
+@end
+
+@protocol GADFullScreenPresentingAd;
+@interface AdWhaleAppOpenAd (SWIFT_EXTENSION(AdWhaleSDK)) <GADFullScreenContentDelegate>
+- (void)adWillPresentFullScreenContent:(id <GADFullScreenPresentingAd> _Nonnull)ad;
+- (void)adDidDismissFullScreenContent:(id <GADFullScreenPresentingAd> _Nonnull)ad;
+- (void)ad:(id <GADFullScreenPresentingAd> _Nonnull)ad didFailToPresentFullScreenContentWithError:(NSError * _Nonnull)error;
 @end
 
 SWIFT_PROTOCOL("_TtP10AdWhaleSDK24AdWhaleAppOpenAdDelegate_")
@@ -950,8 +1019,9 @@ SWIFT_PROTOCOL("_TtP10AdWhaleSDK28AdWhaleAppOpenAdViewDelegate_")
 
 @class NSCoder;
 @protocol AdWhaleBannerDelegate;
+@class GADBannerView;
 SWIFT_CLASS("_TtC10AdWhaleSDK15AdWhaleBannerAd")
-@interface AdWhaleBannerAd : UIView
+@interface AdWhaleBannerAd : UIView <GADBannerViewDelegate>
 - (nonnull instancetype)init:(NSString * _Nonnull)adUnitId adSize:(enum AdWhaleAdSize)adSize rootViewController:(UIViewController * _Nonnull)rootViewController OBJC_DESIGNATED_INITIALIZER;
 - (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
 - (nonnull instancetype)init:(enum AdWhaleAdSize)adSize OBJC_DESIGNATED_INITIALIZER;
@@ -961,6 +1031,13 @@ SWIFT_CLASS("_TtC10AdWhaleSDK15AdWhaleBannerAd")
 - (void)setDelegate:(id <AdWhaleBannerDelegate> _Nullable)delegate;
 - (void)setRootViewController:(UIViewController * _Nullable)rootViewController;
 - (void)load;
+- (void)bannerViewDidReceiveAd:(GADBannerView * _Nonnull)bannerView;
+- (void)bannerView:(GADBannerView * _Nonnull)bannerView didFailToReceiveAdWithError:(NSError * _Nonnull)error;
+- (void)bannerViewDidRecordImpression:(GADBannerView * _Nonnull)bannerView;
+- (void)bannerViewWillPresentScreen:(GADBannerView * _Nonnull)bannerView;
+- (void)bannerViewWillDismissScreen:(GADBannerView * _Nonnull)bannerView;
+- (void)bannerViewDidDismissScreen:(GADBannerView * _Nonnull)bannerView;
+- (void)bannerViewDidRecordClick:(GADBannerView * _Nonnull)bannerView;
 - (void)destroy;
 @end
 
@@ -981,6 +1058,14 @@ SWIFT_CLASS("_TtC10AdWhaleSDK21AdWhaleInterstitialAd")
 - (void)load:(NSString * _Nonnull)adUnitId;
 - (void)show:(UIViewController * _Nonnull)rootViewController;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
+@interface AdWhaleInterstitialAd (SWIFT_EXTENSION(AdWhaleSDK)) <GADFullScreenContentDelegate>
+/// Tells the delegate that the ad will present full screen content.
+- (void)adWillPresentFullScreenContent:(id <GADFullScreenPresentingAd> _Nonnull)ad;
+/// Tells the delegate that the ad dismissed full screen content.
+- (void)adDidDismissFullScreenContent:(id <GADFullScreenPresentingAd> _Nonnull)ad;
+- (void)ad:(id <GADFullScreenPresentingAd> _Nonnull)ad didFailToPresentFullScreenContentWithError:(NSError * _Nonnull)error;
 @end
 
 SWIFT_PROTOCOL("_TtP10AdWhaleSDK27AdWhaleInterstitialDelegate_")
@@ -1008,21 +1093,15 @@ typedef SWIFT_ENUM(NSInteger, AdWhaleMaxAdContentRating, open) {
   AdWhaleMaxAdContentRatingMatureAudience = 3,
 };
 
-SWIFT_CLASS("_TtC10AdWhaleSDK19AdWhaleMediaContent")
-@interface AdWhaleMediaContent : NSObject
-@property (nonatomic, readonly) CGFloat aspectRatio;
-- (nonnull instancetype)init SWIFT_UNAVAILABLE;
-+ (nonnull instancetype)new SWIFT_DEPRECATED_MSG("-init is unavailable");
-@end
-
 SWIFT_CLASS("_TtC10AdWhaleSDK16AdWhaleMediaView")
-@interface AdWhaleMediaView : UIView
+@interface AdWhaleMediaView : GADMediaView
 - (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end
 
 @protocol AdWhaleNativeAdDelegate;
 @class UIImage;
+@class GADMediaContent;
 SWIFT_CLASS("_TtC10AdWhaleSDK15AdWhaleNativeAd")
 @interface AdWhaleNativeAd : NSObject
 @property (nonatomic, weak) id <AdWhaleNativeAdDelegate> _Nullable delegate;
@@ -1032,7 +1111,7 @@ SWIFT_CLASS("_TtC10AdWhaleSDK15AdWhaleNativeAd")
 @property (nonatomic, copy) NSString * _Nullable profileName;
 @property (nonatomic, copy) NSString * _Nullable callToAction;
 @property (nonatomic, strong) UIImage * _Nullable icon;
-@property (nonatomic, strong) AdWhaleMediaContent * _Nullable mediaContent;
+@property (nonatomic, strong) GADMediaContent * _Nullable mediaContent;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
@@ -1052,16 +1131,29 @@ enum AdWhaleNativeAspectRatio : NSInteger;
 SWIFT_CLASS("_TtC10AdWhaleSDK21AdWhaleNativeAdLoader")
 @interface AdWhaleNativeAdLoader : NSObject
 @property (nonatomic, weak) id <AdWhaleNativeAdLoaderDelegate> _Nullable delegate;
-SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) AdWhaleNativeAdLoader * _Nonnull sharedInstance;)
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) AdWhaleNativeAdLoader * _Nonnull sharedInstance SWIFT_DEPRECATED;)
 + (AdWhaleNativeAdLoader * _Nonnull)sharedInstance SWIFT_WARN_UNUSED_RESULT;
-- (nonnull instancetype)init SWIFT_UNAVAILABLE;
-+ (nonnull instancetype)new SWIFT_DEPRECATED_MSG("-init is unavailable");
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)initWithAdUnitId:(NSString * _Nonnull)adUnitId rootViewController:(UIViewController * _Nonnull)rootViewController aspectRatioOption:(enum AdWhaleNativeAspectRatio)aspectRatioOption;
 - (void)initializeWithAdUnitId:(NSString * _Nonnull)adUnitId rootViewController:(UIViewController * _Nonnull)rootViewController;
 - (void)initializeWithAdUnitId:(NSString * _Nonnull)adUnitId rootViewController:(UIViewController * _Nonnull)rootViewController aspectRatioOption:(enum AdWhaleNativeAspectRatio)aspectRatioOption;
 - (void)setRootViewController:(UIViewController * _Nullable)rootViewController;
 - (void)loadAd;
 - (void)bind:(AdWhaleNativeAdView * _Nonnull)nativeAdView;
 - (AdWhaleNativeAdView * _Nullable)bindView:(UIView * _Nonnull)renderingView SWIFT_WARN_UNUSED_RESULT;
+- (void)destroy;
+@end
+
+@class GADAdLoader;
+@class GADNativeAd;
+@interface AdWhaleNativeAdLoader (SWIFT_EXTENSION(AdWhaleSDK)) <GADNativeAdDelegate, GADNativeAdLoaderDelegate>
+- (void)adLoader:(GADAdLoader * _Nonnull)adLoader didReceiveNativeAd:(GADNativeAd * _Nonnull)nativeAd;
+- (void)adLoader:(GADAdLoader * _Nonnull)adLoader didFailToReceiveAdWithError:(NSError * _Nonnull)error;
+- (void)nativeAdDidRecordImpression:(GADNativeAd * _Nonnull)nativeAd;
+- (void)nativeAdDidRecordClick:(GADNativeAd * _Nonnull)nativeAd;
+- (void)nativeAdWillPresentScreen:(GADNativeAd * _Nonnull)nativeAd;
+- (void)nativeAdWillDismissScreen:(GADNativeAd * _Nonnull)nativeAd;
+- (void)nativeAdDidDismissScreen:(GADNativeAd * _Nonnull)nativeAd;
 @end
 
 SWIFT_PROTOCOL("_TtP10AdWhaleSDK29AdWhaleNativeAdLoaderDelegate_")
@@ -1084,15 +1176,15 @@ SWIFT_PROTOCOL("_TtP10AdWhaleSDK17AdWhaleRenderable_")
 @end
 
 SWIFT_CLASS("_TtC10AdWhaleSDK19AdWhaleNativeAdView")
-@interface AdWhaleNativeAdView : UIView <AdWhaleRenderable>
-- (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
-- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+@interface AdWhaleNativeAdView : GADNativeAdView <AdWhaleRenderable>
 - (UILabel * _Nonnull)adTitleLabel SWIFT_WARN_UNUSED_RESULT;
 - (UILabel * _Nonnull)adBodyLabel SWIFT_WARN_UNUSED_RESULT;
 - (UIButton * _Nonnull)adCallToActionButton SWIFT_WARN_UNUSED_RESULT;
 - (UILabel * _Nonnull)adProfileNameLabel SWIFT_WARN_UNUSED_RESULT;
 - (UIImageView * _Nonnull)adProfileIconView SWIFT_WARN_UNUSED_RESULT;
 - (AdWhaleMediaView * _Nonnull)adMediaView SWIFT_WARN_UNUSED_RESULT;
+- (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end
 
 typedef SWIFT_ENUM(NSInteger, AdWhaleNativeAspectRatio, open) {
@@ -1113,10 +1205,15 @@ SWIFT_CLASS("_TtC10AdWhaleSDK13AdWhaleReward")
 
 @protocol AdWhaleRewardDelegate;
 SWIFT_CLASS("_TtC10AdWhaleSDK15AdWhaleRewardAd")
-@interface AdWhaleRewardAd : NSObject
+@interface AdWhaleRewardAd : NSObject <GADFullScreenContentDelegate>
 @property (nonatomic, weak) id <AdWhaleRewardDelegate> _Nullable rewardDelegate;
 - (void)load:(NSString * _Nonnull)adUnitId;
 - (void)show:(UIViewController * _Nonnull)rootViewController;
+- (void)ad:(id <GADFullScreenPresentingAd> _Nonnull)ad didFailToPresentFullScreenContentWithError:(NSError * _Nonnull)error;
+/// Tells the delegate that the ad will present full screen content.
+- (void)adWillPresentFullScreenContent:(id <GADFullScreenPresentingAd> _Nonnull)ad;
+/// Tells the delegate that the ad dismissed full screen content.
+- (void)adDidDismissFullScreenContent:(id <GADFullScreenPresentingAd> _Nonnull)ad;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
@@ -1131,6 +1228,13 @@ SWIFT_PROTOCOL("_TtP10AdWhaleSDK21AdWhaleRewardDelegate_")
 /// Tells the delegate that the ad dismissed full screen content.
 - (void)adDidDismissRewardAd:(AdWhaleRewardAd * _Nonnull)ad;
 @end
+
+typedef SWIFT_ENUM(NSInteger, GdprConsentStatus, open) {
+  GdprConsentStatusUnknown = 0,
+  GdprConsentStatusRequired = 1,
+  GdprConsentStatusNotRequired = 2,
+  GdprConsentStatusObtained = 3,
+};
 
 #endif
 #if __has_attribute(external_source_symbol)
