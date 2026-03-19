@@ -4,7 +4,7 @@ import PackageDescription
 let package = Package(
     name: "AdWhaleSPM",
     platforms: [
-        .iOS(.v12)
+        .iOS(.v13)
     ],
     products: [
         .library(
@@ -40,7 +40,7 @@ let package = Package(
                     package: "swift-package-manager-google-mobile-ads"
                 ),
                 .product(
-                    name: "AppLovinAdapter",
+                    name: "AppLovinAdapterTarget",
                     package: "googleads-mobile-ios-mediation-applovin"
                 ),
                 .product(
